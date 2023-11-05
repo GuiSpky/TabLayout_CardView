@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentEquipe"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginRight="10dp"
+            android:layout_weight = "1"
+            android:id="@+id/cardGui"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#F2E8CAB8"
+            app:cardElevation="11dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/gui" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:text="Guilherme"
+                android:textSize="30sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginLeft="10dp"
+            android:layout_weight = "1"
+            android:id="@+id/cardEdu"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#F2E8CAB8"
+            app:cardElevation="11dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/gui" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:text="Eduardo"
+                android:textSize="30sp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_marginRight="10dp"
+            android:layout_weight = "1"
+            android:id="@+id/cardMaria"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#F2E8CAB8"
+            app:cardElevation="11dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/maria" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:text="Maria"
+                android:textSize="30sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginLeft="10dp"
+            android:layout_weight = "1"
+            android:id="@+id/cardMurilo"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#F2E8CAB8"
+            app:cardElevation="11dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/murilo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:text="Murilo"
+                android:textSize="30sp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>
